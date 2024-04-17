@@ -1,0 +1,33 @@
+.sidenav {
+    height: 100%;
+    width: 250px; /* Adjusted width for the open state */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #232323;
+    transition: width 0.5s; /* Transition only width property */
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidenav a:hover {
+    color: #ccc;
+}
+
+.close-sidebar-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}

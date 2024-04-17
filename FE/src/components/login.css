@@ -1,0 +1,59 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.login-box {
+  width: 400px; /* Set width of the login box */
+  background-color: #ffffff; /* Background color */
+  padding: 20px; /* Padding around the login box */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.login-title {
+  text-align: center; /* Center-align the login title */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* Arrange form elements in a column */
+}
+
+.login-input {
+  margin-bottom: 10px; /* Bottom margin */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #cccccc; /* Border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.login-button {
+  padding: 10px; /* Padding inside the button */
+  background-color: #3a3b3c; /* Background color */
+  color: #ffffff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.login-link {
+  text-align: center; /* Center-align the login link */
+  margin-top: 10px; /* Top margin */
+}
+
+.login-link a {
+  color: #333639; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.login-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
